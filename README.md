@@ -35,16 +35,38 @@ We are developing an End-to-end Learning Architecture for Autonomous Driving wit
 - [Sample Prediction Test](#sample) <br/>
 
 ## Environment SetUp <a name="env"></a>
-### Windows <a name="env-win"></a>
-* Install Anaconda (64 Bit, Python 3.7 version or higher)
+### Windows (Anaconda) <a name="env-win"></a>
+Install Anaconda (64 Bit, Python 3.7 version or higher)
 ```
 https://www.anaconda.com/products/individual
 ```
-* Install OpenCV and Torch modules with Anaconda prompt.
+Install OpenCV and Torch modules with Anaconda prompt.
 ```
 pip install opencv-contrib-python
 conda install pytorch -c pytorch
 conda install torchvision -c pytorch
+```
+
+### Windows (VEnv, PIP) <a name="env-win"></a>
+Install Python
+```
+https://www.python.org/downloads/
+```
+Open Windows PowerShell and run following commands
+```
+py -m pip install --upgrade pip
+py -m pip install --user virtualenv
+py -m venv ani717\deeplearn
+.\ani717\deeplearn\Scripts\activate
+py -m pip install torch===1.7.1+cu110 torchvision===0.8.2+cu110 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+py -m pip install pandas
+py -m pip install matplotlib
+py -m pip install opencv-contrib-python
+deactivate
+```
+Activate Virtual Environment
+```
+.\ani717\deeplearn\Scripts\activate
 ```
 
 ### Raspberry Pi 4 (OS: raspios-buster-arm64) <a name="env-rasp"></a>
