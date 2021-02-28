@@ -58,7 +58,9 @@ py -m pip install --upgrade pip
 py -m pip install --user virtualenv
 py -m venv ani717\deeplearn
 .\ani717\deeplearn\Scripts\activate
-py -m pip install torch===1.7.1+cu110 torchvision===0.8.2+cu110 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+py -m pip install torch===1.7.1+cu110 torchvision===0.8.2+cu110 torchaudio===0.7.2 `
+-f https://download.pytorch.org/whl/torch_stable.html
+py -m pip install --upgrade pip
 py -m pip install pandas
 py -m pip install matplotlib
 py -m pip install opencv-contrib-python
