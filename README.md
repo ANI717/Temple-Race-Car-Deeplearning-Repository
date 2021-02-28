@@ -25,7 +25,8 @@ We are developing an End-to-end Learning Architecture for Autonomous Driving wit
 
 ## Table of Contents  
 - [Environment SetUp](#env) <br/>
-  * [Windows](#env-win) <br/>
+  * [Windows (Anaconda)](#env-win-conda) <br/>
+  * [Windows (PIP)](#env-win-pip) <br/>
   * [Raspberry Pi 4](#env-rasp) <br/>
 - [Software Repository](#soft) <br/>
   * [Driver Softwares](#soft-driver) <br/>
@@ -35,8 +36,8 @@ We are developing an End-to-end Learning Architecture for Autonomous Driving wit
 - [Sample Prediction Test](#sample) <br/>
 
 ## Environment SetUp <a name="env"></a>
-### Windows (Anaconda) <a name="env-win"></a>
-Install Anaconda (64 Bit, Python 3.7 version or higher)
+### Windows (Anaconda) <a name="env-win-conda"></a>
+Install Anaconda (64 Bit, Python 3.7 version or higher).
 ```
 https://www.anaconda.com/products/individual
 ```
@@ -47,12 +48,12 @@ conda install pytorch -c pytorch
 conda install torchvision -c pytorch
 ```
 
-### Windows (VEnv, PIP) <a name="env-win"></a>
-Install Python
+### Windows (PIP) <a name="env-win-pip"></a>
+Install Python (Python 3.9 version or higher).
 ```
 https://www.python.org/downloads/
 ```
-Open Windows PowerShell and run following commands
+Open Windows PowerShell and run following commands.
 ```
 py -m pip install --upgrade pip
 py -m pip install --user virtualenv
