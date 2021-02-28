@@ -66,7 +66,7 @@ py -m pip install matplotlib
 py -m pip install opencv-contrib-python
 deactivate
 ```
-Activate Virtual Environment
+Activate Virtual Environment.
 ```
 .\ani717\deeplearn\Scripts\activate
 ```
