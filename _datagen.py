@@ -93,7 +93,7 @@ class Datagen(Dataset):
 
         """
 
-        return torch.from_numpy(np.array(label)).long()
+        return torch.from_numpy(np.array(label)).float()
 
 
     def __getitem__(self, index):

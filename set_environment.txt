@@ -1,8 +1,8 @@
 Animesh Bala Ani (ANI717)
 
 
-Windows:
--------
+Windows (Anaconda):
+------------------
 1. Install Anaconda (6.4 Bit, Python 3.7 version)
 
 2. Open Anaconda prompt.
@@ -27,3 +27,38 @@ python3 -m pip install pandas
 python3 -m pip install --upgrade Pillow
 python3 -m pip install matplotlib
 python3 -m pip install opencv-contrib-python
+
+
+Windows (VEnv, PIP):
+------------------
+1. Download and Install Python from https://www.python.org/downloads/
+
+2. Update PIP:
+	py -m pip install --upgrade pip
+
+3. Install virtualenv:
+	py -m pip install --user virtualenv
+
+4. Create a Virtual Environment:
+	py -m venv ani717\deeplearn
+
+	a. Activate Virtual Environment:
+		.\ani717\deeplearn\Scripts\activate
+	
+	b. Checking location of Python interpreter
+		where python
+
+	c. Leave Virtual Environment:
+		deactivate
+	
+	d. Delete Virtual Environment:
+		rm -r ani717\deeplearn
+
+5. Install Pytorch with Cuda support (https://pytorch.org/get-started/locally/):
+	py -m pip install torch===1.7.1+cu110 torchvision===0.8.2+cu110 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+
+6. Install Pandas, Matplotlib and OpenCV (also update PIP):
+	py -m pip install --upgrade pip
+	py -m pip install pandas
+	py -m pip install matplotlib
+	py -m pip install opencv-contrib-python
