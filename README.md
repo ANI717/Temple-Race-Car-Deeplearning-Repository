@@ -25,6 +25,7 @@ We are developing an End-to-end Learning Framework for Autonomous Driving with R
 
 ## Table of Contents  
 - [Environment SetUp](#env) <br/>
+  * [Docker](#env-docker) <br/>
   * [Windows (Anaconda)](#env-win-conda) <br/>
   * [Windows (PIP)](#env-win-pip) <br/>
   * [Raspberry Pi 4](#env-rasp) <br/>
@@ -36,6 +37,19 @@ We are developing an End-to-end Learning Framework for Autonomous Driving with R
 - [Sample Prediction Test](#sample) <br/>
 
 ## Environment SetUp <a name="env"></a>
+### Docker <a name="env-docker"></a>
+Install Docker for Proper Platform.
+```
+https://docs.docker.com/get-docker/
+```
+Run following commands.
+```
+cd race-car
+docker build --tag race-car-docker .
+docker run -d --name race-car-container race-car-docker
+docker exec -it race-car-container /bin/bash
+```
+
 ### Windows (Anaconda) <a name="env-win-conda"></a>
 Install Anaconda (64 Bit, Python 3.7 version or higher).
 ```
