@@ -27,8 +27,8 @@ We are developing an End-to-end Learning Framework for Autonomous Driving with R
 + [Environment SetUp](#env) <br/>
   - [Docker](#env-docker) <br/>
   - [Windows (Anaconda)](#env-win-conda) <br/>
-   * [Anaconda](#env-win-conda) <br/>
-   * [PIP](#env-win-pip) <br/>
+    * [Anaconda](#env-win-conda) <br/>
+    * [PIP](#env-win-pip) <br/>
   - [Raspberry Pi 4](#env-rasp) <br/>
 + [Software Repository](#soft) <br/>
   - [Driver Softwares](#soft-driver) <br/>
