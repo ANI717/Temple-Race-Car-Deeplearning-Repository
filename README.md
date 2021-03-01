@@ -24,18 +24,18 @@ We are developing an End-to-end Learning Framework for Autonomous Driving with R
 * [Michael Nghe](https://sites.temple.edu/cflab/people/)
 
 ## Table of Contents  
-- [Environment SetUp](#env) <br/>
-  * [Docker](#env-docker) <br/>
-  * [Windows (Anaconda)](#env-win-conda) <br/>
-    + [Anaconda](#env-win-conda) <br/>
-    + [PIP](#env-win-pip) <br/>
-  * [Raspberry Pi 4](#env-rasp) <br/>
-- [Software Repository](#soft) <br/>
-  * [Driver Softwares](#soft-driver) <br/>
-  * [Neural Network](#soft-nn) <br/>
-  * [Supportive Tools](#soft-tools) <br/>
-- [Database](#data) <br/>
-- [Sample Prediction Test](#sample) <br/>
++ [Environment SetUp](#env) <br/>
+  - [Docker](#env-docker) <br/>
+  - [Windows (Anaconda)](#env-win-conda) <br/>
+   * [Anaconda](#env-win-conda) <br/>
+   * [PIP](#env-win-pip) <br/>
+  - [Raspberry Pi 4](#env-rasp) <br/>
++ [Software Repository](#soft) <br/>
+  - [Driver Softwares](#soft-driver) <br/>
+  - [Neural Network](#soft-nn) <br/>
+  - [Supportive Tools](#soft-tools) <br/>
++ [Database](#data) <br/>
++ [Sample Prediction Test](#sample) <br/>
 
 ## Environment SetUp <a name="env"></a>
 ### Docker <a name="env-docker"></a>
