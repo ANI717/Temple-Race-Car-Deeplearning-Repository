@@ -43,7 +43,7 @@ Install Docker for Proper Platform.
 ```
 https://docs.docker.com/get-docker/
 ```
-Run following commands.
+Download the repository and run following commands.
 ```
 cd race-car
 docker build --tag race-car-docker .
