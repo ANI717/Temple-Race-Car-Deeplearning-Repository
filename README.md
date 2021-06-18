@@ -196,4 +196,3 @@ models/
 [license-url]: https://github.com/ANI717/race-car/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ani717
-[product-screenshot]: images/screenshot.png
