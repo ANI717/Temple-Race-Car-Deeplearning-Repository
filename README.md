@@ -20,8 +20,8 @@ We are developing an End-to-end Learning Framework for Autonomous Driving with R
 ## Colaborators
 [Computer Fusion Laboratory (CFL) - Temple University College of Engineering](https://sites.temple.edu/cflab/people/)
 * [Animesh Bala Ani](https://www.linkedin.com/in/ani717/)
-* [Dr. Li Bai](https://engineering.temple.edu/about/faculty-staff/li-bai-lbai)
 * [Michael Nghe](https://sites.temple.edu/cflab/people/)
+* [Dr. Li Bai](https://engineering.temple.edu/about/faculty-staff/li-bai-lbai)
 
 ## Table of Contents  
 + [Environment SetUp](#env) <br/>
