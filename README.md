@@ -177,9 +177,6 @@ models/
 ### Prediction on Captured Video 1
 <img src="https://github.com/ANI717/ani717_gif_repository/blob/main/temple-race-car-deeplearning/prediction-1.gif" alt="JupytarLab Interface" class="inline"/><br/>
 
-### Prediction on Captured Video 2
-[![Temple Race-car Project - Prediction on Captured Video 2](http://img.youtube.com/vi/yulaIIDh_K0/0.jpg)](http://www.youtube.com/watch?v=yulaIIDh_K0 "Temple Race-car Project - Prediction on Captured Video 2")
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
