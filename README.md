@@ -23,7 +23,8 @@ We are developing an End-to-end Learning Framework for Autonomous Driving with R
 * [Michael Nghe](https://sites.temple.edu/cflab/people/)
 * [Dr. Li Bai](https://engineering.temple.edu/about/faculty-staff/li-bai-lbai)
 
-## Table of Contents  
+## Table of Contents
++ [Sample Prediction Test](#sample) <br/>
 + [Environment SetUp](#env) <br/>
   - [Docker](#env-docker) <br/>
   - [Windows (Anaconda)](#env-win-conda) <br/>
@@ -35,7 +36,13 @@ We are developing an End-to-end Learning Framework for Autonomous Driving with R
   - [Neural Network](#soft-nn) <br/>
   - [Supportive Tools](#soft-tools) <br/>
 + [Database](#data) <br/>
-+ [Sample Prediction Test](#sample) <br/>
+
+## Sample Prediction Test <a name="sample"></a>
+Prediction on Captured Video with a trained model.<br/>
+
+<img src="https://github.com/ANI717/ani717_gif_repository/blob/main/temple-race-car-deeplearning/prediction-1.gif" alt="JupytarLab Interface" class="inline"/><br/>
+
+<br/>
 
 ## Environment SetUp <a name="env"></a>
 ### Docker <a name="env-docker"></a>
@@ -172,11 +179,6 @@ data/lists/
 ```
 models/
 ```
-
-## Sample Prediction Test <a name="sample"></a>
-Prediction on Captured Video with a trained model.<br/>
-
-<img src="https://github.com/ANI717/ani717_gif_repository/blob/main/temple-race-car-deeplearning/prediction-1.gif" alt="JupytarLab Interface" class="inline"/><br/>
 
 
 
