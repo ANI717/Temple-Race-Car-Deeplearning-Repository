@@ -175,7 +175,7 @@ models/
 
 ## Sample Prediction Test <a name="sample"></a>
 ### Prediction on Captured Video 1
-[![Temple Race-car Project - Prediction on Captured Video 1](http://img.youtube.com/vi/6__Wq2JxxDI/0.jpg)](http://www.youtube.com/watch?v=6__Wq2JxxDI "Temple Race-car Project - Prediction on Captured Video 1")
+<img src="https://github.com/ANI717/ani717_gif_repository/blob/main/temple-race-car-deeplearning/prediction-1.gif" alt="JupytarLab Interface" class="inline"/><br/>
 
 ### Prediction on Captured Video 2
 [![Temple Race-car Project - Prediction on Captured Video 2](http://img.youtube.com/vi/yulaIIDh_K0/0.jpg)](http://www.youtube.com/watch?v=yulaIIDh_K0 "Temple Race-car Project - Prediction on Captured Video 2")
