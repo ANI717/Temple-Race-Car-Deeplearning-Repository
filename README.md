@@ -174,7 +174,7 @@ models/
 ```
 
 ## Sample Prediction Test <a name="sample"></a>
-### Prediction on Captured Video 1
+Prediction on Captured Video with a trained model.<br/>
 <img src="https://github.com/ANI717/ani717_gif_repository/blob/main/temple-race-car-deeplearning/prediction-1.gif" alt="JupytarLab Interface" class="inline"/><br/>
 
 
