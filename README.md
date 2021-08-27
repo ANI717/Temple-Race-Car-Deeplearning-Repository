@@ -111,6 +111,7 @@ python3 -m pip install opencv-contrib-python
 ```
 Or follow the instructions from [here](https://github.com/ANI717/headless_raspberrypi_setup) to setup everything from the beginning.
 
+
 ## Software Repository (Python, OpenCV, PyTorch) <a name="soft"></a>
 ### Driver Softwares <a name="soft-driver"></a>
 * Creates and refines CSV files contaning list of image directory paths.
@@ -165,6 +166,7 @@ _data_handler.py
 ```
 _visualization.py
 ```
+
 
 ## Database <a name="data"></a>
 * Contains raw images collected in different environments and time period. The image repository remains immutable during whole session.
